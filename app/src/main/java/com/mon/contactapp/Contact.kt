@@ -9,5 +9,6 @@ data class Contact(
     val id: Int = 0,
     val name: String,
     val dateOfBirth: String,
-    val email: String
+    val email: String,
+    val avatarResourceId: Int = AvatarManager.DEFAULT_AVATAR
 )
